@@ -2085,12 +2085,13 @@ strong {
 	}
 
 	div.row div.project-picture {
-		width: 30%;
+		width: 40%;
+		margin-bottom: 20px;
 	}
 
 	div.row div.project-description-container {
-		margin-left: 10px;
-		width: 60%;
+		margin-left: 20px;
+		width: 50%;
 	}
 
 	ul.project-description {
@@ -2098,8 +2099,14 @@ strong {
 
 	}
 
+	ul.project-description li {
+		font-size: 20px;
+
+	}
+
 	.project-description i {
 		margin-left: -30px;
+		text-align: left;
 	}
 
 	.project-description-container {
