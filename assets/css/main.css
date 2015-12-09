@@ -1952,6 +1952,10 @@
 
 /* Icons */
 
+strong {
+	font-weight: bold;
+}
+
 	.icon {
 		text-decoration: none;
 	}
@@ -2066,6 +2070,40 @@
 		-webkit-transition: none;
 		-ms-transition: none;
 		transition: none;
+	}
+
+	ul.project-description li {
+		text-align: left;
+
+	}
+
+	.project-description header {
+		text-align: left;
+		display: block;
+		font-size: 40px;
+		margin: 0 0 15px;
+	}
+
+	div.row div.project-picture {
+		width: 30%;
+	}
+
+	div.row div.project-description-container {
+		margin-left: 10px;
+		width: 60%;
+	}
+
+	ul.project-description {
+		list-style: square;
+
+	}
+
+	.project-description i {
+		margin-left: -30px;
+	}
+
+	.project-description-container {
+
 	}
 
 		#nav ul li a span {
