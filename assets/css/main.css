@@ -2080,6 +2080,7 @@ strong {
 	.project-description header {
 		text-align: left;
 		display: block;
+		font-weight: bold;
 		font-size: 40px;
 		margin: 0 0 15px;
 	}
