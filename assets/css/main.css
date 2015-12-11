@@ -2085,12 +2085,15 @@ strong {
 		font-size: 30px;
 		margin: 0 0 15px;
 	}
+	div.row div.project-picture img {
+		border: 1px solid black;
+	}
 
 	div.row div.project-picture {
 		width: 40%;
 		margin-bottom: 20px;
 	}
-	div.row div.project-picture:hover {
+	div.row div.project-picture:hover img{
 		box-shadow: 1px 1px 1px grey;
 	}
 
