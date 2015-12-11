@@ -1,1 +1,1 @@
-[live] [http://www.jimmyzeng.info]
+[live] (http://www.jimmyzeng.info)
