@@ -2081,6 +2081,7 @@ strong {
 		text-align: left;
 		border-bottom: 1px dotted grey;
 		display: block;
+		font-weight: bold;
 		font-size: 30px;
 		margin: 0 0 15px;
 	}
