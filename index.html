@@ -113,10 +113,10 @@
 								<div class="project-description-container">
 									<ul class="project-description">
 										<header> Felamily </header>
-										<li> Uses Paperclip, AWS S3, and Figaro to store uploaded images in the cloud. </li>
+										<li> Uses Paperclip, AWS S3, and Figaro to store uploaded images in the cloud</li>
 										<li> Provides visual feedback to users on Ajax requests using Flux architecture </li>
-										<li> Live search only makes 1 query to database and filters the results of that query. </li>
-										<li> Uses custom mixin to autofocus input fields </li>
+										<li> Live search only makes 1 query to database by caching the results </li>
+
 
 									</ul>
 								</div>
@@ -136,13 +136,8 @@
 								<div class="project-description-container">
 									<ul class="project-description">
 										<header> Snake </header>
-										<li>Supports standard play and two-player mode with collision and winner detection, including a special case for head-on collisions. </li>
-									<li> Local highscores are stored using Window.localStorage </li>
-									<li> All game graphics drawn using pure CSS3. </li>
-									<li> Avoids snake turning backwards on itself by only allowing one direction input per movement frame.</li>
-									<li> Smart rendering only redraws head and tail of snake to simulate movement. </li>
-
-
+										<li> Smart rendering only redraws head and tail of snake to simulate movement</li>
+										<li> Limits server load by storing high-scores locally across sessions.</li>
 									</ul>
 								</div>
 							</div>
@@ -163,8 +158,9 @@
 								<div class="project-description-container">
 									<ul class="project-description">
 										<header> wORM </header>
-										<li> Executes SQL WHERE queries with protection against SQL injection attacks </li>
-										<li> Supports associations between models including belongs_to, has_many, has_many_through and has_one_through using custom SQL queries written in heredocs </li>
+										<li> Abstracts database associations onto an object-oriented framework. </li>
+										<li> Executes SQL queries with protection against injection attacks </li>
+
 
 									</ul>
 								</div>
@@ -189,7 +185,7 @@
 									<li> Builds up a stringified proc to be evaluated using 'instance_eval' with JSON data as context</li>
 										<li> Supports nested looping constructs using 'each' </li>
 										<li> Supports flow control keywords like 'if, unless, else, elsif' </li>
-										<li> Tested with RSpec </li>
+										<li> Tested with RSpec and documented with YARD </li>
 
 
 									</ul>
